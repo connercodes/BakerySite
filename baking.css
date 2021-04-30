@@ -1,0 +1,100 @@
+header, main, nav, footer, figure,  figcaption, aside, section, article { display:block;}
+
+body{
+    font-family: Papyrus, Verdana, Arial;
+    background-color: #4F6D93;
+    color:#7777777;
+}
+
+header{
+    background-color: #000033;
+    background-image: url(bake2.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+nav{
+    padding: 20px;
+    float: left;
+    width: 160px;
+    height: 100%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size:1.2em;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+li a {
+    display: block;
+    width: 60px;
+}
+nav a:link{color: #000033;}
+nav a:visited{color: #344873;}
+nav a:hover{color: #FFFFFF}
+
+}
+#baking{
+    height: 300px;``
+    background-image: url(bake1.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    margin-left: 190px;
+}
+#container{
+    background-color: #90C7E3;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 860px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+#gallery{
+    position: relative;
+    height: 200px;
+    text-align: left;
+    color: black;
+}
+#gallery ul{
+    width: 300px;
+    list-style-type: none;
+}
+#gallery a{
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+#gallery a: hover span{
+    position: absolute;
+    top: 16px;
+    left: 320px;
+    text-align: center;
+    opacity:1;
+}
+#gallery span{
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+#gallery li{
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+#gallery img{
+    border-style: none;
+}
